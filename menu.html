@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Menu</title>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="logo.png">
+	<script src="script.js"></script>
+</head>
+<body onload = "filterSelection('all')">
+	<header>
+		
+		<div class="top-header">
+
+			<div class="header-text">
+				<h3>Hours</h3>
+				<p>Monday - Saturday</p>
+				<p>7am - 12pm</p>
+			</div>
+
+			<a href="index.html"><img src="logo.png" class="logo"></a>
+
+			<div class="header-socials">
+				<div class="header-icons">
+					<ul>
+						<div class="header-icon-list">						
+							<li><a href="#"><img src="facebook.png"></a></li>
+							<li><a href="#"><img src="insta.png"></a></li>
+							<li><a href="#"><img src="tiktok.png"></a></li>
+						</div>
+					</ul>
+				</div>
+				<div class="header-socials-text">
+					<p>@carbsandcoldbrew</p>
+				</div>
+			</div>
+		</div>
+		
+
+		<div class="bottom-header">
+			<nav>
+				<ul>
+					
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="hiring.html">Now Hiring</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="menu">
+		<h1 id="menu-header">Menu</h1>
+		<div id = "myBtnContainer">
+			<button class="btn " onclick="filterSelection('all')">All</button>
+			<button class="btn" onclick="filterSelection('bites')">Bites</button>
+			<button class="btn" onclick="filterSelection('drinks')">Drinks</button>
+		</div>
+
+		<div class="container">
+
+			<div class="filterDiv bites">
+					<img src="croissant.png"><p>Croissant with homemade grape jelly</p>
+					<p class="menu-price">$4</p>
+					<p class="menu-desc">A little bit flaky... hope you like it!</p>
+			</div>
+
+			<div class="filterDiv bites">
+					<img src="bluemuffin.png" class="menu-img">
+					<p>Blueberry Muffin</p>
+					<p class="menu-price">$3</p>
+					<p class="menu-desc">A delectable blueberry muffin that will make you blue-BERRY happy!</p>
+			</div>
+
+			<div class="filterDiv bites">
+				<img src="chocmuffin.png"><p>Chocolate Muffin</p>
+				<p class="menu-price">$3</p>
+				<p class="menu-desc">There's muffin you will love more than this Chocolate muffin!</p>
+			</div> 
+
+			
+			<div class="filterDiv bites">
+					<img src="bagel.png"><p>Bagel</p>
+					 <p class="menu-price">$3</p>
+					 <p class="menu-desc">A delicous bagel of your choice: plain, everything, whole wheat... You name it!</p>
+			</div>
+
+			<div class="filterDiv bites">
+					<img src="bagelcheese.png"><p>Bagel with Cream Cheese</p>
+					 <p class="menu-price">$5</p>
+					 <p class="menu-desc">A bagel (plain, everything, whole wheat) with mouth watering cream cheese (plain, strawberry, blueberry)</p>
+			</div>
+
+
+			<div class="filterDiv bites">
+					<img src="bread.png"><p>Walnut Chocolate Chip Banana Bread</p>
+					<p class="menu-price">$4</p>
+					<p class="menu-desc">You're nuts if you don't like this walnut chocolate chip banana bread!</p>
+			</div>
+
+			<div class="filterDiv drinks">
+					<img src="iced-chai-latte.png" class="drinks-img"><p>Iced Chai Latte</p>
+					<p class="menu-price">$3 / $4 / $5</p>
+					<p class="menu-desc">You need to chai this Iced Chai Latte!</p>
+			</div>
+
+			<div class="filterDiv drinks">
+					<img src="nitro.png"><p>Nitro Cold Brew</p>
+					<p class="menu-price">$4 / $5 / $6</p>
+					<p class="menu-desc">It's a brewtiful day to order the Nitro Cold Brew!</p>
+			</div>
+
+			<div class="filterDiv drinks ">
+					<img src="viet-coffee.png"><p>Vietnamese Iced Coffee</p>
+					<p class="menu-price">$4 / $5 / $6</p>
+					<p class="menu-desc">You'll be vietna-PLEASED by this Vietnamese Iced Coffee!</p>
+			</div>
+
+			<div class="filterDiv drinks ">
+					<img src="iced-coffee.png"><p>Iced Coffee</p>
+					<p class="menu-price">$3 / $4 / $5</p>
+					<p class="menu-desc">Small: 8oz / Medium: 12oz / Large: 16oz <br> Add a Flavor (+ $.50): Vanilla, Mocha, Caramel, Toffee, Cookie Dough <br>
+Non-Dairy Milks (+ $.75): Almond, Soy, Oat, Coconut</p>
+			</div>
+
+
+		</div>
+	</div>
+
+	<hr id="menu-hr">
+
+		<footer>
+		<div class="footer">
+		<h2>Let's Stay In Touch!</h2>
+		<div class="signup">
+			<div class="email-wrap">
+				<input type="email" placeholder="jane.doe@something.com">
+				<button type="button" id="footer-btn">Sign Up</button>
+			</div>
+		</div>
+		<div class="contact">
+		
+
+		<div class="contact-text">
+			<h3>Contact Us</h3>
+			<p>hello@c-cb.com</p>
+			<p>(901)123-4567</p>
+			<p>P.O. Box 12345, Memphis, TN 38134</p>
+			<p>Facebook @carbsandcoldbrews</p>
+			<p>Instagram @carbsandcoldbrews</p>
+			<p>TikTok @carbsandcoldbrews</p>
+		</div>
+		<div class="contact-icons">
+			<ul>
+				<li><a href="#"><img src="facebook.png"></a></li>
+				<li><a href="#"><img src="insta.png"></a></li>
+				<li><a href="#"><img src="tiktok.png"></a></li>
+			</ul>
+		</div>
+		</div>
+		<div class="slogan-wrap">
+			<h2 id="slogan">Memphis Baked & Brewed since 2021</h2>
+			<hr class="last-hr">
+		</div>
+	</div>
+	</footer>
+</body>
+</html>
