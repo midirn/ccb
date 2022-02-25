@@ -1,4 +1,4 @@
-/* Helper Styles: Do not Delete */
+/* global css */
 * {
 	transition: all ease .33s;
 }
@@ -242,6 +242,9 @@ nav ul li a:hover {
 	}
 }
 
+
+/* find us section css */
+
 .find-us h2 {
 	padding-top: 5%;
 	padding-bottom: 5%;
@@ -280,6 +283,8 @@ nav ul li a:hover {
 }
 
 
+/* about us section css */
+
 .about-us h2 {
 	padding-top: 5%;
 	padding-bottom: 5%;
@@ -309,7 +314,7 @@ nav ul li a:hover {
 	border-radius: 25px;
 }
 
-
+/* footer css */
 
 .footer {
 	padding: 0;
@@ -419,6 +424,8 @@ footer #footer-btn {
 	width: 80%;
 	margin: 0 auto 0 auto;
 }
+
+/* responsive css */
 
 @media screen and (min-width: 701px) {
   .contact-text p {
@@ -607,7 +614,7 @@ footer #footer-btn {
  
 }
 
-/* Menu CSS */
+/* menu css */
 .menu {
 	display: flex;
 	flex-direction: column;
@@ -628,6 +635,8 @@ footer #footer-btn {
  
 }
 
+/* menu filter css */
+
 .filterDiv {
 	
   color: #468189;
@@ -636,14 +645,14 @@ footer #footer-btn {
  	padding: 2%;
   border-radius: 25px;
  	margin: 5px;
-  display: none; /* Hidden by default */
+  display: none; 
 }
 
 .show {
   display: block;
 }
 
-/* Style the buttons */
+
 .btn {
   border: none;
   outline: none;
@@ -653,19 +662,13 @@ footer #footer-btn {
   
 }
 
-/* Add a light grey background on mouse-over */
+
 .btn:hover {
   color: #468189;
   font-weight: bold;
   background-color: transparent;
 }
 
-/* Add a dark background to the active button */
-.btn.active {
-  text-decoration: underline;
-  color: #468189;
-  font-weight: bold;
-}
 
 .filterDiv img {
 	width: 200px;
@@ -676,6 +679,7 @@ footer #footer-btn {
 	color: #323031;
 }
 
+/* now hiring css */
 
 .hiring {
 	text-align: center;
@@ -686,62 +690,16 @@ footer #footer-btn {
 	margin-right: auto;
 }
 
-form label {
-	font-size: 24px;
-}
-
-.full-name {
-	display: flex;
-	width: 90%;
-	justify-content: space-evenly;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.city-state {
-	display: flex;
-	width: 90%;
-	justify-content: space-evenly;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.city {
-	width: 45%;
-	margin: 0;
-	padding: 0;
-}
-
-.state {
-	width: 45%;
-	margin: 0;
-	padding: 0;
-}
-
-.first {
-	width: 33%;
-	margin: 0;
-	padding: 0;
-}
-
-
-.middle {
-	width: 33%;
-	margin: 0;
-	padding: 0;
-}
-
-
-.last {
-	width: 33%;
-	margin: 0;
-	padding: 0;
-}
+/* form css */
 
 .form {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
+}
+
+form label {
+	font-size: 24px;
 }
 
 select {
@@ -780,3 +738,58 @@ select {
 	font-size: 18px;
 	
 }
+
+
+/* name section of the form css */
+
+.full-name {
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.first {
+	width: 33%;
+	margin: 0;
+	padding: 0;
+}
+
+
+.middle {
+	width: 33%;
+	margin: 0;
+	padding: 0;
+}
+
+
+.last {
+	width: 33%;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* address section of the form css */
+
+.city-state {
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.city {
+	width: 45%;
+	margin: 0;
+	padding: 0;
+}
+
+.state {
+	width: 45%;
+	margin: 0;
+	padding: 0;
+}
+
